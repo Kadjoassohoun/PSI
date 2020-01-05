@@ -1,0 +1,15 @@
+eliseeassohoun/miage/psi/api/repository/MessageRepository.class
+eliseeassohoun/miage/psi/api/model/Profile.class
+eliseeassohoun/miage/psi/api/model/Expertise.class
+eliseeassohoun/miage/psi/api/model/Skill.class
+eliseeassohoun/miage/psi/api/controller/MessageController.class
+eliseeassohoun/miage/psi/api/repository/SkillRepository.class
+eliseeassohoun/miage/psi/api/SwaggerConfig.class
+eliseeassohoun/miage/psi/api/controller/LocationController.class
+eliseeassohoun/miage/psi/api/repository/ProfileRepository.class
+eliseeassohoun/miage/psi/api/repository/ExpertiseRepository.class
+eliseeassohoun/miage/psi/api/controller/ExpertiseController.class
+eliseeassohoun/miage/psi/api/controller/SkillController.class
+eliseeassohoun/miage/psi/api/ApiApplication.class
+eliseeassohoun/miage/psi/api/model/Message.class
+eliseeassohoun/miage/psi/api/controller/ProfileController.class
