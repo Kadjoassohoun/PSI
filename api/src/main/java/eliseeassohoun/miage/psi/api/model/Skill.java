@@ -32,6 +32,18 @@ public class Skill implements Serializable {
     public Profile getProfile() {
         return profile;
     }
+
+    public void setSkillId(String skillId) {
+        this.skillId = skillId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
 }
 
 
