@@ -58,5 +58,46 @@ public class Profile implements Serializable {
     public String getHeadline() {
         return headline;
     }
+
+    public void setProfileId(String profileId) {
+        this.profileId = profileId;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setLocationName(String locationName) {
+        this.locationName = locationName;
+    }
+
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+    }
+
+    public void setIndustryName(String industryName) {
+        this.industryName = industryName;
+    }
+
+    public void setHeadline(String headline) {
+        this.headline = headline;
+    }
+
+    @Override
+    public String toString() {
+        return "Profile{" +
+                "profileId='" + profileId + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", locationName='" + locationName + '\'' +
+                ", countryCode='" + countryCode + '\'' +
+                ", industryName='" + industryName + '\'' +
+                ", headline='" + headline + '\'' +
+                '}';
+    }
 }
 
