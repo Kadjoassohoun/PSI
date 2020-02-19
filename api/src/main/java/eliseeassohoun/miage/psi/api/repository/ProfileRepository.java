@@ -14,6 +14,8 @@ public interface ProfileRepository extends PagingAndSortingRepository<Profile, S
     Page <Profile> findAll(Pageable pageable);
     List<Profile> findAll();
 
+    @Query(value = "SELECT * FROM `profile` p where p.first_name LIKE :firstName%", nativeQuery = true)
+    List<Profile> findByFirstName(@Param("firstName") String firstName);
     @Query(value = "SELECT * FROM `profile` p where p.last_name LIKE :lastName%", nativeQuery = true)
     List<Profile> findByLastName(@Param("lastName") String lastName);
     @Query(value = "SELECT `industry_name`, COUNT(`industry_name`) FROM `profile` GROUP BY `industry_name` ORDER BY COUNT(`industry_name`) DESC", nativeQuery = true)

@@ -50,6 +50,12 @@ public class ProfileController {
         return profileRepository.findByLastName(lastName);
     }
 
+    @GetMapping(value = "/by-firstname/{firstName}")
+    @ResponseBody
+    public List<Profile> getProfileByFirstName(@PathVariable final String firstName) {
+        return profileRepository.findByFirstName(firstName);
+    }
+
     @GetMapping(value = "/{id}/skills")
     @ResponseBody
     public Iterable<Skill> getSkillsByProfileId(@PathVariable final String id) {
